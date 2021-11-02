@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useEffect } from 'react'
 
-function State공부() {
+function State() {
   const [글제목, 글제목변경] = useState(['남자코트 추천', '강남우동 맛집'])
   const posts = '강남우동 맛집'
   const [따봉, 따봉변경] = useState(0)
@@ -33,10 +33,11 @@ function State공부() {
       <div className="list">
         <h3>{글제목[1]}</h3>
         <p>2월 17일 발행</p>
+        <div></div>
         <hr />
       </div>
     </div>
   )
 }
 
-export default State공부
+export default State
