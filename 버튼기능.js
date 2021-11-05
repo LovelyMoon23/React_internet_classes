@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useEffect } from 'react'
 
-function State공부() {
+function 버튼기능() {
   const [글제목, 글제목변경] = useState(['남자코트 추천', '강남우동 맛집'])
   const posts = '강남우동 맛집'
   const [따봉, 따봉변경] = useState(0)
@@ -39,4 +39,4 @@ function State공부() {
   )
 }
 
-export default State공부
+export default 버튼기능
